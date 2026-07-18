@@ -1,3 +1,5 @@
+from src.utiles.Date_Time_helper import get_current_time, get_current_date
+
 class AssistentBrain:
     def __init__(self , name = "Aura"):
         '''This is the constructor which initialize the assistent'''
@@ -5,7 +7,7 @@ class AssistentBrain:
         self.is_running = True
     def start(self):
         '''Method to start the assistent'''
-        print(f"Hello!. I am {self.name}. How can i help you today?")
+        print(f"Hello!. it's {self.name} here.")
         self._run_loop()
     def _run_loop(self):
         """
@@ -24,7 +26,16 @@ class AssistentBrain:
             self.is_running = False
         elif "hello" in command or "hi" in command or "hey" in command:
             print("hello!, How are you")
-            print("How can i help you today")
+            print("Nice to meet you!")
+            print("How can i help you?")
+            
+        elif "time" in command:
+            print(f"The currect time  {get_current_time()}")
+        elif "date" in command:
+            print(f"The currect time is   {get_current_date()}")
+        
+            
+        
         
 
 
