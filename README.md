@@ -16,10 +16,10 @@ Aura is a lightweight, modular desktop voice assistant built in Python. Designed
 
 ## Built With
 
-**Language:** Python 3
-**AI Engine:** Groq API (`llama-3.3-70b-versatile`)
-**Audio / Speech:** `speech_recognition`, `sounddevice`, `soundfile`
-**Integrations:** WeatherAPI, OS Subprocesses
-**Environment & Security:** `python-dotenv`
+-- Language:** Python 3
+-- AI Engine:** Groq API (`llama-3.3-70b-versatile`)
+-- Audio / Speech:** `speech_recognition`, `sounddevice`, `soundfile`
+-- Integrations:** WeatherAPI, OS Subprocesses
+-- Environment & Security:** `python-dotenv`
 
 
