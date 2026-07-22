@@ -1,1 +1,20 @@
+# Secret keys and configuration environment files
+.env
+
+# Python caching and internal compile files
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment folders
+.venv/
+venv/
+ENV/
+
+# Operating system specific files (hides system garbage folders)
+.DS_Store
+Thumbs.db
+
+# VS Code specific workspace configurations (optional)
+.vscode/
